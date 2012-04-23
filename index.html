@@ -1,41 +1,56 @@
 <html>
 <head>
-<style type="text/css">
-
-
-img
-{
-position:absolute;
-left:0px;
-top:0px;
-z-index:-1;
-}
-
-body{
-	font-family:Helvetica;
-	background-image:url('http://dl.dropbox.com/u/24683141/png.png');
-	padding-bottom:100px;
-}
-</style>
+	<style type="text/css">
+	body {background-image:url('png.png'); background-repeat:no-repeat; background-attachment:fixed; margin:0em 1em; padding:0;}
+	h1{letter-spacing:.5em;}
+	h3{letter-spacing:.3em;}
+	p{letter-spacing:.5em; margin: 1em; padding: 1em;}
+	.header {width:100%;height:100px;padding:10px;}
+	.container {min-width:30em; max-width:40em; margin:2em auto; padding-bottom: 10px;}
+	.nav {width:200px; height:500px; float: right;}
+	.nav .wrapper {position:relative;padding:0.5em;}    
+	.nav a img {border:none}
+	.nav .mugs a {display:inline-block; width:150px; height:150px; background:url("mugs-hover-2.png") left top no-repeat;}
+	.nav .abs a {display:inline-block; width:150px; height:150px; background:url("abstract-hover-2.png") left top no-repeat;}
+	.nav .written a {display:inline-block; width:150px; height:150px; background:url("written-hover.png") left top no-repeat;}
+	.nav .home a {display:inline-block; width:150px; height:150px; background:url("home-hover.png") left top no-repeat;}
+	.nav a:hover img {position:absolute; left:-999em; top:-999em; }
+	/* ie6 needs his fix*/
+	.nav a:hover {zoom:1;}
+	</style>
 </head>
 <body>
-<span style=" font-family:Helvectica; letter-spacing:.5em;">
-	<h1>maya sayre richman</h1>a jekyll influenced blog
-	<br></br><br></br>
-	<br></br>
 	
-	today was the day I decided to share something.
-	
+		<div class="header"><h1>maya sayre richman</h1><p>a jekyll influenced blog</p></div>
+		<div class="nav">
+		   <div class="wrapper">
+			<div class="mugs">
+	       <a href="mug.html"><img src="mugs-2.png" height="150" width="150" alt=""/></a>
+	       </div>
+	       </div>
+	      <div class="wrapper">
+		 <div class="abs">
+		  <a href="abstract.html"><img src="abstract-2.png" height="150" width="150" alt=""/></a>
+		  </div>
+		</div>	
+		<div class="wrapper">
+		 <div class="written">
+		  <a href="written.html"><img src="written.png" height="150" width="150" alt=""/></a>
+		  </div>
+		</div>
+		<div class="wrapper">
+		 <div class="home">
+		  <a href="index.html"><img src="home.png" height="150" width="150" alt=""/></a>
+		  </div>
+		</div>
+	</div>
+	<div class="container">
 	<h3>recollections of a night</h3>
-	</span><br></br><br></br>
-	<br></br><br></br>
-	
-	<span style="font-family:Helvectica; letter-spacing:.4em; position:absolute; right:80px; left:auto;">
+	<p>
 		in the most silent place i've heard<br>
 		within a wooden lion's den<br>
 		the walls seemed to rumble with the stomachs of the house<br>
 		both hungry and fed up<br></span>
-	<span style="font-family:Helvectica; letter-spacing:.4em; position:absolute; right:80px; left:auto; top:70%;">
 		when i couldn't see my own hands<br>
 		but i could feel yours<br>
 		we crawled and slipped down the stairs<br>
@@ -59,28 +74,20 @@ body{
 	high<br>
 	rise<br>
 	<br></br>
-	</span>
-	<span style="font-family:Helvectica; letter-spacing:.4em; position:absolute; right:60px; left:auto; top:120%;">
 	
 	occupied by my own distractions<br>
 	i tell my tenants to take out the trash<br>
 	go for a walk<br>
 	enjoy the day<br>
-	but they don't move an       inch<br>
+	but they don't move an ___________inch<br>
 	they can't hear me over the city's long, sorrowful bellows<br>
-    </span>
-   
 
-    <span style="font-family:Helvectica; letter-spacing:.4em; position:absolute; right:15px; left:auto; top:140%;">
 	the helicopters above me just hover<br>
 	they are ideas I once owned<br>
 	 but are now drones to flowering sky scrapers in spring,<br>
 	and dribbling more-water-than-sand castles at high tide<br>
-	</span>
-	<br></br><br></br>
-	
-<br><br>
-
+	</p>
+	</div>
 </body>
 </html>
 
