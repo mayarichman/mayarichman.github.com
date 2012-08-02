@@ -1,93 +1,15 @@
-<html>
-<head>
-	<style type="text/css">
-	body {background-image:url('png.png'); background-repeat:no-repeat; background-attachment:fixed; margin:0em 1em; padding:0;}
-	h1{letter-spacing:.5em;}
-	h3{letter-spacing:.3em;}
-	p{letter-spacing:.5em; margin: 1em; padding: 1em;}
-	.header {width:100%;height:100px;padding:10px;}
-	.container {min-width:30em; max-width:40em; margin:2em auto; padding-bottom: 10px;}
-	.nav {width:200px; height:500px; float: right;}
-	.nav .wrapper {position:relative;padding:0.5em;}    
-	.nav a img {border:none}
-	.nav .mugs a {display:inline-block; width:150px; height:150px; background:url("mugs-hover-2.png") left top no-repeat;}
-	.nav .abs a {display:inline-block; width:150px; height:150px; background:url("abstract-hover-2.png") left top no-repeat;}
-	.nav .written a {display:inline-block; width:150px; height:150px; background:url("written-hover.png") left top no-repeat;}
-	.nav .home a {display:inline-block; width:150px; height:150px; background:url("home-hover.png") left top no-repeat;}
-	.nav a:hover img {position:absolute; left:-999em; top:-999em; }
-	/* ie6 needs his fix*/
-	.nav a:hover {zoom:1;}
-	</style>
-</head>
-<body>
-	
-		<div class="header"><h1>maya sayre richman</h1><p>a jekyll influenced blog</p></div>
-		<div class="nav">
-		   <div class="wrapper">
-			<div class="mugs">
-	       <a href="mug.html"><img src="mugs-2.png" height="150" width="150" alt=""/></a>
-	       </div>
-	       </div>
-	      <div class="wrapper">
-		 <div class="abs">
-		  <a href="abstract.html"><img src="abstract-2.png" height="150" width="150" alt=""/></a>
-		  </div>
-		</div>	
-		<div class="wrapper">
-		 <div class="written">
-		  <a href="written.html"><img src="written.png" height="150" width="150" alt=""/></a>
-		  </div>
-		</div>
-		<div class="wrapper">
-		 <div class="home">
-		  <a href="index.html"><img src="home.png" height="150" width="150" alt=""/></a>
-		  </div>
-		</div>
-	</div>
-	<div class="container">
-	<h3>recollections of a night</h3>
-	<p>
-		in the most silent place i've heard<br>
-		within a wooden lion's den<br>
-		the walls seemed to rumble with the stomachs of the house<br>
-		both hungry and fed up<br></span>
-		when i couldn't see my own hands<br>
-		but i could feel yours<br>
-		we crawled and slipped down the stairs<br>
-		i was afraid<br>
-	<br></br>
-		because the imagination can run amuck<br>
-		in the discomfort of the dark<br>
-	to see the possibilities of everything when all is removed from sight<br>
-    <br>
-	earlier,<br>
-	sitting at the dining room table, draped in shadows,<br>
-	my brain felt stuffed with cotton as i attempted to match your essay's volume word for word in my<br>
-	diary<br><br>
-    somehow this emptiness gave rise to a blinding day<br>
-	shape, <i>form</i>, <strike>line</strike>, <strong>tone</strong> overcrowded me<br>
-	and<br> i<br> was<br>
-	 a<br>
-	new<br>
-	york<br>
-	city<br>
-	high<br>
-	rise<br>
-	<br></br>
-	
-	occupied by my own distractions<br>
-	i tell my tenants to take out the trash<br>
-	go for a walk<br>
-	enjoy the day<br>
-	but they don't move an ___________inch<br>
-	they can't hear me over the city's long, sorrowful bellows<br>
-
-	the helicopters above me just hover<br>
-	they are ideas I once owned<br>
-	 but are now drones to flowering sky scrapers in spring,<br>
-	and dribbling more-water-than-sand castles at high tide<br>
-	</p>
-	</div>
-</body>
-</html>
-
+---
+layout: default
+class: main
+---
+<div class="header"><h1>maya sayre richman</h1><p>a jekyll influenced blog</p></div>
+{% for post in site.categories.poem limit:3 %}
+<div class="container white">
+      <h3>{{ post.title }}</h3>
+        <div class="body-post">{{ post.content }}</div>
+</div>
+{% endfor %}
+<div class="container white">
+      <h3>recollections of a night</h3>
+      <p>in the most silent place i've heard<br>within a wooden lion's den<br>the walls seemed to rumble with the stomachs of the house<br>both hungry and fed up<br></span>when i couldn't see my own hands<br> but i could feel yours<br>we crawled and slipped down the stairs<br>i was afraid<br><br></br>because the imagination can run amuck<br>in the discomfort of the dark<br>to see the possibilities of everything when all is removed from sight<br><br>earlier,<br> sitting at the dining room table, draped in shadows,<br>my brain felt stuffed with cotton as i attempted to match your essay's volume word for word in my<br>diary<br><br>somehow this emptiness gave rise to a blinding day<br>shape, <i>form</i>, <strike>line</strike>, <strong>tone</strong> overcrowded me<br>and<br> i<br> was<br> a<br>new<br>york<br>city<br>high<br>rise<br><br></br>occupied by my own distractions<br>i tell my tenants to take out the trash<br>go for a walk<br>enjoy the day<br>but they don't move an ___________inch<br>they can't hear me over the city's long, sorrowful bellows<br>  the helicopters above me just hover<br>they are ideas I once owned<br>but are now drones to flowering sky scrapers in spring,<br>and dribbling more-water-than-sand castles at high tide<br></p>
+</div>

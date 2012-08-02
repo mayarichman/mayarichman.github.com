@@ -1,6 +1,35 @@
----
-theme :
-  name : twitter
----
-{% include JB/setup %}
-{% include themes/twitter/default.html %}
+<!DOCTYPE html>
+{% assign base = site.baseurl %}
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Winter Scars: A Blog</title>
+<link rel="stylesheet" href="{{base}}/style.css" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+</head>
+<body {% if page.class %}class="{{page.class}}"{% endif %}>
+<div class="nav">
+    <div class="wrapper">
+     <div class="home">
+      <a href="{{base}}/"><img src="{{base}}/img/home.png" height="150" width="150" alt=""/></a>
+     </div>
+    </div>
+    <div class="wrapper">
+     <div class="written">
+     <a href="{{base}}/written"><img src="{{base}}/img/written.png" height="150" width="150" alt=""/></a>
+     </div>
+    </div>
+ <div class="wrapper">
+     <div class="mugs">
+      <a href="{{base}}/mug"><img src="{{base}}/img/mugs-2.png" height="150" width="150" alt=""/></a>
+     </div>
+      </div>
+   <div class="wrapper">
+    <div class="abs">
+      <a href="{{base}}/abstract"><img src="{{base}}/img/abstract-2.png" height="150" width="150" alt=""/></a>
+   </div>
+   </div>
+</div>
+{{content}}
+</body>
+</html>
