@@ -1,14 +1,120 @@
-body {background-image:url('img/png.png'); background-repeat:repeat; background-attachment:fixed; overflow-x:hidden; font-family: 'Bad Script', cursive;}
-h1{letter-spacing:.5em;font-family:'Codystar';line-height:40px;}
-h2{letter-spacing:.5em;font-family:'Codystar';line-height:40px;}
-p{letter-spacing:.5em; margin: 1em;}
-a{text-decoration:none;padding:1px;color:rgb(4, 97, 141);-webkit-transition: background-color 0.1s linear;transition: background-color 0.1s linear;border-radius:10px;}
-a:hover {color: white;background-color:rgb(4, 97, 141);}
-.header {height:120px;padding:10px;width:75%;border: transparent #887F7F 1px;background:rgba(255,255,255,.7);border-radius:10px;}
-.container {min-width:30em; max-width:40em;margin:4em auto; padding:20px;}
-.container.white { background-color:rgba(4, 97, 141, .7);color:whiteSmoke;padding: 1px 0px 10px 20px;border-radius:10px;}
-.nav {width:200px; height:500px; position: absolute;top: 192px;left: 0px;}
-.nav .wrapper {position:relative;padding:0.5em;}    
+/* ------------------------------------------
+  Reset ♥
+  http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
+---------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+  }
+body { line-height: 1; }
+ol, ul { list-style: none;  }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+/* tables still need 'cellspacing='0'' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+:focus { outline: 0; }
+
+body {
+ background-image:url('img/png-1.png');
+ background-repeat:repeat;
+ background-attachment:fixed;
+ overflow-x:hidden;
+ font-family: 'Bad Script', cursive;
+}
+h1{
+    letter-spacing:.5em;
+    font-family:'Codystar';
+    line-height:40px;
+    font-size:24px;
+    color: black;
+}
+h2{
+    letter-spacing:.5em;
+    font-family:'Codystar';
+    line-height:40px;
+    font-size:20px;
+}
+h3{
+    letter-spacing:.5em;
+    line-height:40px;
+    font-size:18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+h5{
+  font-size:16px;
+  font-weight:bold;
+  font-family:'Codystar';
+}
+p{
+    letter-spacing:.3em;
+    margin:10px;
+}
+a{
+    text-decoration:none;
+    padding:1px;
+    color:white;
+    -webkit-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+    border-radius:10px;
+}
+a:hover {color:rgb(4, 97, 141);background-color: white;}
+.header {
+    padding:20px;width:920px;
+    border: transparent #887F7F 1px;
+    background:rgba(255,255,255,.7);
+    border-radius:10px;
+    color:rgb(4, 97, 141);
+}
+.header p {
+    letter-spacing:.5em;
+    font-size:15px;
+}
+.map {
+    width:580px;
+    height:480px;
+}
+.container {min-width:30em; max-width:600px;margin:4em auto; padding:20px;}
+.container.color{
+    background-color:rgba(4, 97, 141, .7);
+    color:whiteSmoke;
+    padding: 0px 0px 20px 20px;
+    border-radius:10px;
+}
+.container.color p {
+    font-size:15px;
+    padding:10px;
+    line-height:22px;
+}
+.container.color h5 {
+    text-align:center;
+}
+.nav {width:200px;position: absolute;top:180px;left: 0px;padding-left:10px}
+.nav .wrapper {position:relative;}
 .nav a img {border:none}
 .nav .mugs a {display:inline-block; width:150px; height:150px; background:url("img/mugs-hover-2.png") left top no-repeat;}
 .nav .abs a {display:inline-block; width:150px; height:150px; background:url("img/abstract-hover-2.png") left top no-repeat;}
@@ -17,4 +123,22 @@ a:hover {color: white;background-color:rgb(4, 97, 141);}
 .nav a:hover img {position:absolute; left:-999em; top:-999em; }
 /* ie6 needs his fix*/
 .nav a:hover {zoom:1;}
-img.inkscape {position:absolute;left:380px;}
+#footer {
+    padding:0px 0px 20px 20px;
+    font-size:15px;
+}
+
+/* ------------------------------------------
+  Lil Helpers ♥
+---------------------------------------------*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  }
+
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
