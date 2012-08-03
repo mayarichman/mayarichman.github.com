@@ -1,6 +1,6 @@
 ---
 layout: default
-date: 2012-08-03-0
+date: 2012-08-03
 title: "Space and Place"
 categories: 
 - blog

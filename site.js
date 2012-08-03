@@ -8,4 +8,5 @@ var loadMap = function(options){
             lon:options.lon
         },options.zoom);
         map.setZoomRange(options.zoom,options.range);
+        map.interaction.auto();
 }

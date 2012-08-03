@@ -2,10 +2,11 @@
 layout: default
 class: main
 ---
+<div class="main-content">
 <div class="header"><h1>maya sayre richman</h1><p>a jekyll influenced blog</p></div>
 {% for post in site.categories.blog limit:5 %}
 <div class="container color">
-      <h3>{{ post.title }}</h3>
+      <h3>{{ post.title }}</h3><h4>{{post.date | date: "%A %B %d %Y" }}</h4>
         <div class="body-post">{{ post.content }}</div>
          {% if post.map %}
          <div id='{{post.div}}' class='map'>&nbsp;</div>
@@ -20,5 +21,6 @@ class: main
          });
          </script>
          {% endif %}
+</div>
 </div>
 {% endfor %}

@@ -72,7 +72,7 @@ h5{
   font-family:'Codystar';
 }
 p{
-    letter-spacing:.3em;
+    letter-spacing:4px;
     margin:10px;
 }
 a{
@@ -85,10 +85,11 @@ a{
 }
 a:hover {color:rgb(4, 97, 141);background-color: white;}
 .header {
-    padding:20px;width:920px;
+    padding:20px;
+    width:920px;
     border: transparent #887F7F 1px;
     background:rgba(255,255,255,.7);
-    border-radius:10px;
+    border-radius:0 10px 10px 0;
     color:rgb(4, 97, 141);
 }
 .header p {
@@ -96,10 +97,19 @@ a:hover {color:rgb(4, 97, 141);background-color: white;}
     font-size:15px;
 }
 .map {
-    width:580px;
+    width:620px;
     height:480px;
+    border-radius:20px;
 }
-.container {min-width:30em; max-width:600px;margin:2em auto; padding:20px;}
+.main-content{
+    max-width: 1260px;
+    min-width: 1260px;
+}
+.container {
+     width:640px;
+     margin:2em auto; 
+     padding:20px;
+}
 .container.color{
     background-color:rgba(4, 97, 141, .7);
     color:whiteSmoke;
@@ -110,9 +120,22 @@ a:hover {color:rgb(4, 97, 141);background-color: white;}
     font-size:15px;
     padding:10px;
     line-height:22px;
+    font-family:'Source Sans Pro';
+    font-weight:200;
+}
+.container.color h4{
+    text-align:right;
+    padding:0px 20px 0px 0px;
 }
 .container.color h5 {
     text-align:center;
+}
+.body-post{
+    font-family:'Source Sans Pro';
+}
+.italic{
+    font-weight:300;
+    font-style:italic;
 }
 .nav {width:200px;position: absolute;top:180px;left: 0px;padding-left:10px}
 .nav .wrapper {position:relative;}
