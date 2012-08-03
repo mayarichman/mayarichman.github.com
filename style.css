@@ -1,7 +1,9 @@
 body {background-image:url('img/png.png'); background-repeat:repeat; background-attachment:fixed; overflow-x:hidden; font-family: 'Bad Script', cursive;}
 h1{letter-spacing:.5em;font-family:'Codystar';line-height:40px;}
-h2{letter-spacing:.5em;font-family:'Codystar';}
+h2{letter-spacing:.5em;font-family:'Codystar';line-height:40px;}
 p{letter-spacing:.5em; margin: 1em;}
+a{text-decoration:none;padding:1px;color:rgb(4, 97, 141);-webkit-transition: background-color 0.1s linear;transition: background-color 0.1s linear;border-radius:10px;}
+a:hover {color: white;background-color:rgb(4, 97, 141);}
 .header {height:120px;padding:10px;width:75%;border: transparent #887F7F 1px;background:rgba(255,255,255,.7);border-radius:10px;}
 .container {min-width:30em; max-width:40em;margin:4em auto; padding:20px;}
 .container.white { background-color:rgba(4, 97, 141, .7);color:whiteSmoke;padding: 1px 0px 10px 20px;border-radius:10px;}
