@@ -99,7 +99,7 @@ a:hover {color:rgb(4, 97, 141);background-color: white;}
     width:580px;
     height:480px;
 }
-.container {min-width:30em; max-width:600px;margin:4em auto; padding:20px;}
+.container {min-width:30em; max-width:600px;margin:2em auto; padding:20px;}
 .container.color{
     background-color:rgba(4, 97, 141, .7);
     color:whiteSmoke;
