@@ -107,14 +107,19 @@ a:hover {color:rgb(4, 97, 141);background-color: white;}
 }
 .container {
      width:640px;
-     margin:2em auto; 
      padding:20px;
+     margin: 65px 0px 0px 250px;
+}
+.container a:hover{
+    border-radius:5px;
+    background:rgba(255,255,255,.7);
 }
 .container.color{
     background-color:rgba(4, 97, 141, .7);
     color:whiteSmoke;
     padding: 0px 0px 20px 20px;
     border-radius:10px;
+    margin:65px 0px 0px 300px;
 }
 .container.color p {
     font-size:15px;
@@ -126,9 +131,15 @@ a:hover {color:rgb(4, 97, 141);background-color: white;}
 .container.color h4{
     text-align:right;
     padding:0px 20px 0px 0px;
+    letter-spacing: .1em;
+    font-family:'Source Sans Pro';
 }
 .container.color h5 {
     text-align:center;
+    padding-top: 15px;
+}
+.container.color img {
+    padding:30px 0px 0px 10px;
 }
 .body-post{
     font-family:'Source Sans Pro';
@@ -137,21 +148,93 @@ a:hover {color:rgb(4, 97, 141);background-color: white;}
     font-weight:300;
     font-style:italic;
 }
-.nav {width:200px;position: absolute;top:180px;left: 0px;padding-left:10px}
-.nav .wrapper {position:relative;}
-.nav a img {border:none}
-.nav .mugs a {display:inline-block; width:150px; height:150px; background:url("img/mugs-hover-2.png") left top no-repeat;}
-.nav .abs a {display:inline-block; width:150px; height:150px; background:url("img/abstract-hover-2.png") left top no-repeat;}
-.nav .written a {display:inline-block; width:150px; height:150px; background:url("img/written-hover.png") left top no-repeat;}
-.nav .home a {display:inline-block; width:150px; height:150px; background:url("img/home-hover.png") left top no-repeat;}
-.nav a:hover img {position:absolute; left:-999em; top:-999em; }
+.nav {
+    width:200px;
+    position: absolute;
+    top:180px;
+    left: 0px;
+    padding-left:10px
+}
+.nav .wrapper {
+    position:relative;
+}
+.nav a.simple, .nav a.simple:hover {
+    font-size:30px;
+    margin:10px;
+    display:block;
+    padding:10px;
+}
+.nav a.simple:active{
+   color:rgb(4, 97, 141);
+   background-color: white;
+}
+.nav a img {
+    border:none
+}
+/*.nav .mugs a {
+    display:inline-block; 
+    width:150px; 
+    height:150px; 
+    background:url("img/mugs-hover-2.png") left top no-repeat;
+}
+.nav .abs a {
+    display:inline-block;
+    width:150px; 
+    height:150px; 
+    background:url("img/abstract-hover-2.png") left top no-repeat;
+}
+.nav .written a {
+    display:inline-block;
+    width:150px;
+    height:150px;
+    background:url("img/written-hover.png") left top no-repeat;
+}
+.nav .home a {
+    display:inline-block;
+    width:150px;
+    height:150px; 
+    background:url("img/home-hover.png") left top no-repeat;
+}
+.nav a:hover img {
+    position:absolute;
+    left:-999em; 
+    top:-999em; }
 /* ie6 needs his fix*/
 .nav a:hover {zoom:1;}
+
 #footer {
-    padding:0px 0px 20px 20px;
+    padding:20px 0px 20px 430px;
     font-size:15px;
 }
-
+.archive table th{
+    padding:20px 45px 10px 10px;
+}
+.archive table tr a{
+    margin:25px;
+    border-radius:0px;
+    color:white;
+}
+.archive table tr a:hover{
+    background-color:rgba(255, 255, 255, .0);
+    color:#04618D;
+}
+.archive table tr:hover{
+    background:rgba(255, 255, 255, .7);
+    color:rgb(4, 97, 141);
+}
+.archive table tr.blog-header{
+    background-color: rgba(255, 255, 255, .0);
+    color:white;
+}
+.archive table tr:hover a{
+    color:rgb(4, 97, 141);
+}
+table.archive tbody tr td{
+    margin:10px;
+    padding:10px 10px 10px 10px;
+    padding-left: 25px;
+    padding-right:30px;
+}
 /* ------------------------------------------
   Lil Helpers ♥
 ---------------------------------------------*/
