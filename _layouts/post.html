@@ -4,13 +4,13 @@ layout: default
 <div class="main-content">
 <div class="header"><h1>{{ page.title }}</h1><p>{{page.date | date: "%A %B %d %Y" }}</p></div>
 <div class="container color archive">
-        <div class="body-post">{{ content }}</div>
+        <div class="body-post">{{ content }}
          {% if page.map %}
-         <div id='{{page.div}}' class='map'>&nbsp;</div>
+         <div id="{{page.div}}" class="map">&nbsp;</div>
           <script>
          loadMap({
-             map: '{{page.div}}',
-             layer: '{{page.api}}',
+             map: "{{page.div}}",
+             layer: "{{page.api}}",
              lat: {{page.lat}},
              lon: {{page.lon}},
              zoom: {{page.zoom}},
@@ -18,4 +18,7 @@ layout: default
          });
          </script>
          {% endif %}
+         <div class="back"><a href="{{base}}/archive">Back to Archives</a></div>
+         </div>
+</div>
 </div>

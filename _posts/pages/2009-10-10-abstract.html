@@ -9,9 +9,7 @@ permalink: /abstract
 <h2>"reading, riting and rithmatic"</h2><p>addition+abstraction and distractions from harmony</p>
 </div>
 <div class="container">
-    <img src="{{base}}/img/kite.png" width="640"/><br>
-    <img src="{{base}}/img/pink.png" width="640"/><br>
-    <img src="{{base}}/img/png-3.png" width="640"/><br>
-    <img src="{{base}}/img/Poster1.png" width="640"/><br>
-    <img src="{{base}}/img/png-2.png" width="640"/><br>
+{% for post in site.categories.art %}
+<img src="{{base}}/img/{{post.filename}}" width="640"/><br>
+{% endfor %}
 </div>
