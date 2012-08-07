@@ -83,7 +83,10 @@ a{
     transition: background-color 0.1s linear;
     border-radius:10px;
 }
-a:hover {color:rgb(4, 97, 141);background-color: white;}
+a:hover {
+    color:rgb(4, 97, 141);
+    background-color: white;
+}
 .header {
     padding:20px;
     width:920px;
@@ -113,6 +116,10 @@ a:hover {color:rgb(4, 97, 141);background-color: white;}
 .container a:hover{
     border-radius:5px;
     background:rgba(255,255,255,.7);
+    text-decoration: none;
+}
+.container a{
+text-decoration: underline;
 }
 .container.color{
     background-color:rgba(4, 97, 141, .7);
