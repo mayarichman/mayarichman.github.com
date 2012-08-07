@@ -7,4 +7,4 @@ categories:
 ---
 <h5>Magnets.</h5>
 <p>Hey! How about celebrating this re-design with a song that's been stuck in my head since I first heard it years ago.</p>
-<center><iframe width="420" height="315" src="http://www.youtube.com/embed/bwnLlQ6t2uE" frameborder="0" allowfullscreen></iframe></center>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/bwnLlQ6t2uE"></iframe>
