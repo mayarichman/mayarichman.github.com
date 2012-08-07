@@ -167,7 +167,7 @@ text-decoration: none;
 .nav {
     width:200px;
     position: absolute;
-    top:180px;
+    top:170px;
     left: 0px;
     padding-left:10px
 }
@@ -175,7 +175,7 @@ text-decoration: none;
     position:relative;
 }
 .nav a.simple, .nav a.simple:hover {
-    font-size:30px;
+    font-size:25px;
     margin:10px;
     display:block;
     padding:10px;
