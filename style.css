@@ -118,8 +118,11 @@ a:hover {
     background:rgba(255,255,255,.7);
     text-decoration: none;
 }
-.container a{
+.container.underline a{
 text-decoration: underline;
+}
+.container.underline a:hover{
+text-decoration: none;
 }
 .container.color{
     background-color:rgba(4, 97, 141, .7);
@@ -218,6 +221,10 @@ text-decoration: underline;
 #footer {
     padding:20px 0px 20px 430px;
     font-size:15px;
+}
+.container.color.archive h5 {
+    text-align: center;
+    padding-top: 30px;
 }
 .archive table{
     font-family:'Source Sans Pro';

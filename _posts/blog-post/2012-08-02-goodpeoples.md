@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 date: 2012-08-02
 title: "So You Quote Love Unquote Me"
 categories: 

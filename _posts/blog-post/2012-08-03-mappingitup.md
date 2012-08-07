@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 date: 2012-08-03
 title: "Space and Place"
 categories: 
