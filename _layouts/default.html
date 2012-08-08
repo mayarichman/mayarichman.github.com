@@ -12,9 +12,10 @@
 <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.3/mapbox.css' rel='stylesheet' />
 <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.3/mapbox.js'></script>
 <script src='{{site.baseurl}}/js/jquery.min.js'></script>
+<script src='{{site.baseurl}}/js/prettify.js'></script>
 <script src='{{site.baseurl}}/site.js'></script>
 </head>
-<body {% if page.class %}class="{{page.class}}"{% endif %}>
+<body {% if page.class %}class="{{page.class}}"{% endif %}  onload="prettyPrint()">
 <div class="nav">
     <div class="wrapper" id='home'>
      <div class="home">
