@@ -157,8 +157,12 @@ text-decoration: none;
     font-size:17px;
     letter-spacing:4px;
 }
+h3.fancy {
+    font-family:'Bad Script';
+}
 .body-post{
     font-family:'Source Sans Pro';
+    font-weight:200;
 }
 .back {
     padding: 15px 0 0 0;

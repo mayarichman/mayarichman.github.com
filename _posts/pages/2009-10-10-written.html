@@ -6,7 +6,7 @@ subtitle: "Really."
 permalink: /written
 ---
 <div class="header"><h2>"some talk of death of the written word"</h2><p>i talk about death with the written word</p></div>
-{% for post in site.categories.poem limit:3 %}
+{% for post in site.categories.poem %}
 <div class="container color">
       <h3>{{ post.title }}</h3>
         <div class="body-post">{{ post.content }}</div>
