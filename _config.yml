@@ -4,5 +4,5 @@ markdown: rdiscount
 rdiscount:
   extensions: [smart]
 baseurl:
-permalink: /:title
 production_url : http://username.github.com
+permalink: /:title
