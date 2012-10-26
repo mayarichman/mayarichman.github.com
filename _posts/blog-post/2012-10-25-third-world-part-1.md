@@ -12,7 +12,7 @@ categories:
 	<li>Beyrer, C. (2001). "Shan women and girls and the sex industry in Southeast Asia; political causes and human rights implications." Social science and medicine 53: 543-550</li>
 	<li>Lyttleton, C. and S. Vorabouth (2011). "Trade circles: aspirations and ethnicity in commercial sex in Laos." Culture, Health & Sexuality: An International Journal for Research, Intervention and Care 13(Sup2): S263-S277.</li> 
 </ul>
-<p>Pdf is clearer here:<br><a>http://f.cl.ly/items/1y200h3o0L3K3a1l2J2Z/sex-workers-poem-festo.pdf</a></p>
+<p>Pdf is clearer <a href='http://f.cl.ly/items/1y200h3o0L3K3a1l2J2Z/sex-workers-poem-festo.pdf'>here.</a></p>
 </p>
 <iframe src="http://docs.google.com/gview?url=https://s3.amazonaws.com/f.cl.ly/items/1y200h3o0L3K3a1l2J2Z/sex-workers-poem-festo.pdf&embedded=true" style="width:610px; height:784px;" frameborder="0"></iframe>
 
