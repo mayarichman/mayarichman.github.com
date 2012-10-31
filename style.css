@@ -271,6 +271,9 @@ table.archive tbody tr td{
     padding-right:30px;
 }
 
+.emphasis {
+	font-weight:600;
+}
 .carousel {
   position: relative;
   margin-bottom: 18px;
