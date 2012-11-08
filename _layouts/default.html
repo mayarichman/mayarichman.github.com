@@ -32,30 +32,31 @@
 <div class="nav">
     <div class="wrapper" id='home'>
      <div class="home">
-      <a href="{{base}}/" class="simple">Home<!-- <img src="{{base}}/img/home.png" height="150" width="150" alt=""/> --></a>
+      <a href="{{base}}/" {% if page.class == nil %}class='active'{% endif %}>Home<!-- <img src="{{base}}/img/home.png" height="150" width="150" alt=""/> --></a>
      </div>
     </div>
     <div class="wrapper">
      <div class="written">
-     <a href="{{base}}/written" class="simple">Written<!-- <img src="{{base}}/img/written.png" height="150" width="150" alt=""/> --></a>
+     <a href="{{base}}/written" {% if page.class == "words" %}class="active"{% endif %}>
+		 Written<!-- <img src="{{base}}/img/written.png" height="150" width="150" alt=""/> --></a>
      </div>
     </div>
    <div class="wrapper">
     <div class="abs">
-      <a href="{{base}}/abstract" class="simple">Abstract<!-- <img src="{{base}}/img/abstract-2.png" height="150" width="150" alt=""/> --></a>
+      <a href="{{base}}/abstract" {% if page.class == "abstract" %}class="active"{% endif %}>Abstract<!-- <img src="{{base}}/img/abstract-2.png" height="150" width="150" alt=""/> --></a>
    </div>
    </div>
    <div class="wrapper">
     <a href="http://nancygraves.bandcamp.com/" class="simple">Music</a>
    </div>
    <div class="wrapper">
-    <a href="{{base}}/archive" class="simple">Archive</a>
+    <a href="{{base}}/archive" {% if page.class == "archive" %}class="active"{% endif %}>Archive</a>
    </div>
    <div class="wrapper">
-    <a href="{{base}}/about" class="simple">About</a>
+    <a href="{{base}}/about" {% if page.class == "about" %}class="active"{% endif %}>About</a>
    </div>
    <div class="wrapper">
-    <a href="http://feeds.feedburner.com/mayarichman/" class="simple">RSS</a>
+    <a href="http://feeds.feedburner.com/mayarichman/">RSS</a>
    </div>
  </div>
 {{content}}

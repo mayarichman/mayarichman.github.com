@@ -182,13 +182,13 @@ h3.fancy {
 .nav .wrapper {
     position:relative;
 }
-.nav a.simple, .nav a.simple:hover {
+.nav a, .nav a:hover {
     font-size:25px;
     margin:10px;
     display:block;
     padding:10px;
 }
-.nav a.simple:active{
+.nav a.active{
    color:rgb(4, 97, 141);
    background-color: white;
 }
