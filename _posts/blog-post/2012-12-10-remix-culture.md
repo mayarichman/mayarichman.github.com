@@ -4,6 +4,6 @@ date: 2012-12-10
 title: "Re-Re-Remix"
 categories:
 - blog
-----
+---
 <h5>The Cult of Cut-and-Paste</h5>
-<p>Recently I have endeavored to engage with and learn about remix culture for Gabriella Coleman's course Hacker Culture and Politics</p> 
+<p>Recently I have endeavored to learn about remix culture for Gabriella Coleman's course, Hacker Culture and Politics. I couldn't think of a better way to accomplish this than by engaging with the culture directly, discovering for myself the joys and frustrations of making. I have compiled thoughts, quotes, video clips and digital art from this process at <a href='http://mayarichman.github.com/remix-culture'>mayarichman.github.com/remix-culture</a>. Feel free to peruse!</p><p><img src='https://dl.dropbox.com/u/24683141/Remix/i-fergot.jpg' width=550 /></p> 
