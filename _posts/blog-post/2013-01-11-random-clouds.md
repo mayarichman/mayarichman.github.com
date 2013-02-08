@@ -13,7 +13,7 @@ Inkblot friend;
 int clicked = 0;
 
 void setup() {
-  size(500, 500);
+  size(600, 600);
   background(255);
   smooth();
   friend = new Inkblot();
@@ -101,7 +101,7 @@ Walker w;
 int opacity = 100;
 
 void setup() {
-  size(500, 500);
+  size(600, 600);
   background(65, 129, 254); //changed to bright blue
   // Create a walker object
   w = new Walker();
