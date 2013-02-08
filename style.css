@@ -195,6 +195,11 @@ h3.fancy {
 .nav a img {
     border:none
 }
+
+.image-container {
+	position: relative;
+	margin: 16px 0 16px 0;
+}
 /*.nav .mugs a {
     display:inline-block; 
     width:150px; 
