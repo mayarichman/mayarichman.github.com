@@ -194,6 +194,6 @@ class Walker {
   }
 }
 </script>
-<p>The following sketches are written in Processing, the second is based off of Daniel Shiffman's code examples from <a href='https://github.com/shiffman/The-Nature-of-Code'>"The Nature of Code"</a> and converted into Javascript with <a href='http://js.processing.org/'>Processing.js</a> Click on the blue cloud example and press the up/down errors to change the step size.</p><p>
+<p>The following sketches are written in Processing, the second is based off of Daniel Shiffman's code examples from <a href='https://github.com/shiffman/The-Nature-of-Code'>"The Nature of Code"</a> and converted into Javascript with <a href='http://js.processing.org/'>Processing.js.</a> Click on the blue cloud example and press the up/down arrows to change the step size.</p><p>
 	 	 <canvas id="pjs"> </canvas></p>  
  <p><canvas id="cloud"></canvas></p>
