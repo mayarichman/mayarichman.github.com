@@ -1,8 +1,20 @@
-auto: true
-server: true
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
-baseurl:
-production_url : http://username.github.com
-permalink: /:title
+# Site settings
+title: Maya Richman
+description: >
+  I am Maya and this is my personal homepage.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://mayarichman.github.io" # the base hostname & protocol for your site
+
+author:
+  fullname: Maya Richman
+  github: mayarichman
+  twitter: mayarichman
+  # disqus: your_disqus_username
+
+# Handling Reading
+exclude: ["README.md", "README.html"]
+
+# Build settings
+markdown: kramdown
+timezone: Europe/Berlin

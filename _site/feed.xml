@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maya Richman</title>
+    <description>I am Maya and this is my personal homepage.
+</description>
+    <link>http://gvirtuc.io/</link>
+    <atom:link href="http://gvirtuc.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 25 Mar 2016 17:13:50 +0100</pubDate>
+    <lastBuildDate>Fri, 25 Mar 2016 17:13:50 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Jekyll and Date</title>
+        <description>&lt;p&gt;So, apparently, Jekyll can’t generate posts dated Feb. 29, 2016.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Feb 2016 16:56:45 +0100</pubDate>
+        <link>http://gvirtuc.io/2016/02/28/jekyll-and-date.html</link>
+        <guid isPermaLink="true">http://gvirtuc.io/2016/02/28/jekyll-and-date.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>First Update</title>
+        <description>&lt;p&gt;Finished my first &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; site. Took a while, but I made it.&lt;/p&gt;
+
+&lt;p&gt;I’d like to thank Kronik3r for his awesome &lt;a href=&quot;https://github.com/kronik3r/daktilo&quot;&gt;Daktilo template&lt;/a&gt;. I had to modify it a bit, but all credits goes to him.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 28 Feb 2016 03:09:45 +0100</pubDate>
+        <link>http://gvirtuc.io/2016/02/28/first-update.html</link>
+        <guid isPermaLink="true">http://gvirtuc.io/2016/02/28/first-update.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sample page</title>
+        <description>&lt;p&gt;Just a sample page with no category.&lt;/p&gt;
+
+&lt;p&gt;Testing stuff and etc.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I am GV!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Thu, 28 Jan 2016 11:56:45 +0100</pubDate>
+        <link>http://gvirtuc.io/2016/01/28/sample-post.html</link>
+        <guid isPermaLink="true">http://gvirtuc.io/2016/01/28/sample-post.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

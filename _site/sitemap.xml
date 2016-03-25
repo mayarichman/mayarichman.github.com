@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+    <url>
+      <loc>http://gvirtuc.io/2016/02/28/jekyll-and-date.html/</loc>
+      
+        <lastmod>2016-02-28T16:56:45+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.7</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://gvirtuc.io/2016/02/28/first-update.html/</loc>
+      
+        <lastmod>2016-02-28T03:09:45+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.7</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://gvirtuc.io/2016/01/28/sample-post.html/</loc>
+      
+        <lastmod>2016-01-28T11:56:45+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.7</priority>
+      
+    </url>
+    
+  
+  
+    
+  
+    
+    <url>
+      <loc>http://gvirtuc.io/about/</loc>
+      
+        <lastmod>2016-03-25T17:13:50+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://gvirtuc.io/feed.xml</loc>
+      
+        <lastmod>2016-03-25T17:13:50+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://gvirtuc.io/</loc>
+      
+        <lastmod>2016-03-25T17:13:50+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://gvirtuc.io/updates.html</loc>
+      
+        <lastmod>2016-03-25T17:13:50+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+</urlset>
