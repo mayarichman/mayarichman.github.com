@@ -1,5 +1,5 @@
 # Site settings
-title: Maya Richman
+title: maya richman
 description: >
   I am Maya and this is my personal homepage.
 
@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://mayarichman.github.io" # the base hostname & protocol for your site
 
 author:
-  fullname: Maya Richman
+  fullname: maya richman
   github: mayarichman
   twitter: mayarichman
   # disqus: your_disqus_username

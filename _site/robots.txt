@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://mayarichman.github.io/sitemap.xml

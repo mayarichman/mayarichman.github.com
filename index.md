@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Hi, I am MSR.
-subtitle: Also known as Maya.
+title: hi, i'm maya.
+subtitle: i like talking to people.
 ---
 
-Looks like you've stumbled upon my simple site. It's super small so you can afford to take the time to peruse it.
+looks like you've stumbled upon my simple site. it's small so it won't take long to have a look around.
 
-Learn more [about me](/about).
+learn more [about me](/about).
