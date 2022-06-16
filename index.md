@@ -6,4 +6,10 @@ subtitle: i like talking to people.
 
 looks like you've stumbled upon my simple site. it's small so it won't take long to have a look around.
 
-learn more [about me](/about).
+![](/assets/img/climbing-dont.png)
+
+1) want to know more about me? [check out my bio](/about)
+
+
+2) need a remote or berlin-based facilitator for an organisational retreat, strategy process, karaoke night, or workshop? [book a call with me](https://calendly.com/mayarichman/30min?month=2022-06)
+

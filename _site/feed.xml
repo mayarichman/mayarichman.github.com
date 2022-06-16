@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maya richman</title>
+    <description>I am Maya and this is my personal homepage.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 Jun 2022 19:05:04 +0200</pubDate>
+    <lastBuildDate>Thu, 16 Jun 2022 19:05:04 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>writing for no one</title>
+        <description>&lt;p&gt;A while back I promised to make a newsletter. This did not happen. Here is a meme that incapsulates my feeling on the subject.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/isthis-1.jpg&quot; alt=&quot;isthis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I posted some screenshots of libreoffice notes on twitter. Possibly the most inaccessible format of communicating. I’m still learning I guess.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;late night ramblings on performance culture &lt;a href=&quot;https://t.co/ymUo0yCwvy&quot;&gt;pic.twitter.com/ymUo0yCwvy&lt;/a&gt;&lt;/p&gt;&amp;mdash; maya (eat the) richman (@mayarichman) &lt;a href=&quot;https://twitter.com/mayarichman/status/1396570653088755725?ref_src=twsrc%5Etfw&quot;&gt;May 23, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Now that I got my personal site up and running again, I guess it’s time to make good on my promise. Perhaps I don’t need a newsletter or shouldn’t make one if I can’t even write a single post on my personal website.&lt;/p&gt;
+
+&lt;p&gt;This is the beginning of a likely short lived attempt at writing something publicly so as to quell my deep-seated fears that I am never really doing anything.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Jun 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/personal/2022/06/16/writing-for-no-one.html</link>
+        <guid isPermaLink="true">http://localhost:4000/personal/2022/06/16/writing-for-no-one.html</guid>
+        
+        
+        <category>personal</category>
+        
+      </item>
+    
+  </channel>
+</rss>

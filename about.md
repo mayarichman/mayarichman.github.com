@@ -1,11 +1,20 @@
 ---
 layout: page
 title: about me
-subtitle: What's your deal?
+subtitle: bio
 permalink: /about/
 ---
-Hi! My name is Maya. I am *definitely a real, living humanperson* and this is my website. I like to describe myself as an **imperfectionist**.
+![profile photo](/assets/img/profile-photo.jpeg)
+Maya Richman is an cis white queer californian living in berlin, searching eternally for someone
+to make silly music with. When she’s not singing karaoke, she can be found facilitating
+workshops on well-being and technology for social justice and human rights organisations around
+the world. She has sang and performed experimental electro-acoustic sets in in Montreal and
+Berlin, hosted feminist community radio program XXFiles on local Montreal station CKUT.fm and
+led workshops on holistic security and collective care at Mozilla Festival in London, Internet
+Freedom Festival inValencia and Radical Networks in NYC. A former Mozilla Fellow, she worked
+with Astraea Lesbian Foundation for Justice to support internal sustainability processes, and
+supported research on surveillance capitalism and resilience of LBQT activists in the US. She
+dabbles in zine-making, watercolor painting and is currently in training to be a trauma-informed somatic practitioner using the Pantarei Approach. Maya loves to amp up a crowd,
+whether to get them working together to tackle climate justice or to sing their heart out on
+stage.
 
-Currently, I am a [Ford-Mozilla open web fellow](https://blog.mozilla.org/blog/2018/08/21/mozilla-announces-25-new-fellows-in-openness-science-and-tech-policy/) working with [Astraea Lesbian Foundation for Justice](https://www.astraeafoundation.org). Previously, I worked at [The Engine Room](https://theengineroom.org) as the resident "Techno Queen". I like helping people solve both small and LARGE problems. I use my l33t haXor skillz to support social change projects and nice people. I also think humor is important and am always looking for venues where laughing is desperately needed.
-
-I live in Berlin where the other security haX0rs have migrated. I spend most of my time eating Vietnamese food and perfecting my fake German English accent.
