@@ -266,7 +266,7 @@ strong {
 /* Source: http://codepen.io/bulby97/pen/fcvay */
 .glitch {
   position: relative;
-  animation: glitch 2s steps(100) infinite; }
+  animation: glitch 4s steps(100) infinite; }
 
 @keyframes glitch {
   0% {
