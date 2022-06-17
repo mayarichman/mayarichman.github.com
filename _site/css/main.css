@@ -101,7 +101,8 @@ strong {
 .page-title {
   margin-top: 100px;
   margin-bottom: 125px;
-  text-align: center; }
+  text-align: center;
+  color: #2274A5; }
 
 .page-title__text {
   font-weight: 700;
@@ -120,6 +121,13 @@ strong {
 
 .post-title__subtitle {
   font-size: 20px; }
+
+.content h1 {
+  color: #F1C40F; }
+
+.content h2 {
+  color: #85b24f;
+  text-decoration: underline; }
 
 /* =Post teasers */
 .list-posts {
