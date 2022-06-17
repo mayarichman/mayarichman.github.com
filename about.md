@@ -7,7 +7,7 @@ permalink: /about/
 ![profile photo](/assets/img/profile-photo.jpeg)
 Maya Richman is an cis white queer californian living in berlin, searching eternally for someone
 to make silly music with. When she’s not singing karaoke, she can be found [facilitating
-workshops on well-being and technology](/about) for social justice and human rights organisations around
+workshops on well-being and technology](/projects) for social justice and human rights organisations around
 the world. She has sang and performed experimental electro-acoustic sets in in Montreal and
 Berlin, hosted feminist community radio program [XXFiles on local Montreal station CKUT.fm](https://old.studioxx.org/en/xxfiles/xxfiles/atelier-nonstrument-mode-emploi) and
 led workshops on holistic security and collective care at Mozilla Festival, Internet
