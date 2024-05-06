@@ -1,7 +1,7 @@
 ---
 
 layout: page
-title: "Contact me"
+title: "Contact"
 subtitle: "I'd love to hear from you"
 permalink: /contact/
 
