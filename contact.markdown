@@ -1,7 +1,8 @@
 ---
 
 layout: page
-title: "Contact Us"
+title: "Contact me"
+subtitle: "I'd love to hear from you"
 permalink: /contact/
 
 ---
@@ -17,7 +18,7 @@ permalink: /contact/
     <input name="Email" id="email" type="email" required  />
   </div>
   <div>
-    <input type="submit" value="Download CTA" />
+    <input type="submit" value="Submit your message" />
     <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
       <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
     </div>
